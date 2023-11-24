@@ -1,4 +1,4 @@
-// Assuming you have installed idb with npm install idb
+// Assuming idb is installed via npm and is being bundled by Webpack
 import { openDB } from 'idb';
 
 // Initialize the IndexedDB database
@@ -36,6 +36,18 @@ editor.addEventListener('input', () => {
   window.debounceSave = setTimeout(() => {
     saveContent(editor.value);
   }, 1000);
+});
+
+// Event listener for the Save Now button
+document.getElementById('saveButton').addEventListener('click', async () => {
+  try {
+    await saveContent(editor.value);
+    console.log('Content saved successfully!');
+    // Optionally show a message to the user that the content has been saved
+  } catch (error) {
+    console.error('Failed to save content', error);
+    // Optionally show a message to the user that the save operation failed
+  }
 });
 
 // Load content when the DOM is fully loaded
