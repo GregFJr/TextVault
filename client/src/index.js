@@ -1,5 +1,7 @@
 // Assuming idb is installed via npm and is being bundled by Webpack
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { openDB } from 'idb';
+
 
 // Initialize the IndexedDB database
 async function initDB() {
