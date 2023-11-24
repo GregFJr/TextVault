@@ -64,3 +64,18 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
+
+//Message handling when saving content
+document.getElementById('saveButton').addEventListener('click', async () => {
+    try {
+      await saveContent(editor.value);
+      const saveAlert = document.getElementById('saveAlert');
+      saveAlert.classList.add('show');
+      setTimeout(() => {
+        saveAlert.classList.remove('show');
+      }, 3000);
+    } catch (error) {
+      console.error('Failed to save content', error);
+    }
+  });
+  
