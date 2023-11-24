@@ -1,4 +1,3 @@
-// Assuming idb is installed via npm and is being bundled by Webpack
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { openDB } from 'idb';
 
@@ -45,10 +44,8 @@ document.getElementById('saveButton').addEventListener('click', async () => {
   try {
     await saveContent(editor.value);
     console.log('Content saved successfully!');
-    // Optionally show a message to the user that the content has been saved
   } catch (error) {
     console.error('Failed to save content', error);
-    // Optionally show a message to the user that the save operation failed
   }
 });
 
