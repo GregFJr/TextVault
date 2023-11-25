@@ -52,5 +52,8 @@ Ensure you have the following installed on your system:
 ## Deployment Link
   Follow this link to [TextVault](https://textvault-455c17426d25.herokuapp.com/)
 
+## Screenshot
+
+![TextVault Screenshot](./client/public/Screenshot%202023-11-24%20at%2010.34.11%20PM.png)
 
 
