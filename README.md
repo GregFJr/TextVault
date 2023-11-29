@@ -2,6 +2,8 @@
 
 TextVault is a Progressive Web Application (PWA) that allows users to create and save notes or code snippets, with or without an internet connection. It utilizes modern web technologies and offers a seamless, app-like experience on both desktop and mobile devices.
 
+Follow The Link [TextVault](https://textvault-455c17426d25.herokuapp.com/)
+
 ## Features
 
 - **Data Persistence**: Leveraging IndexedDB, TextVault saves your data locally, ensuring that your notes are always there when you come back.
@@ -36,8 +38,6 @@ TextVault is a Progressive Web Application (PWA) that allows users to create and
 - Bootstrap - The front-end framework for styling.
 - IndexedDB - The client-side storage API.
 
-## Deployment Link
-  Follow this link to [TextVault](https://textvault-455c17426d25.herokuapp.com/)
 
 ## Screenshot
 ![TextVault Screenshot](./client/src/images/Main.png)
