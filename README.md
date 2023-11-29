@@ -4,19 +4,10 @@ TextVault is a Progressive Web Application (PWA) that allows users to create and
 
 ## Features
 
-- **Offline Functionality**: TextVault works offline, allowing you to write and save your notes anytime, anywhere.
 - **Data Persistence**: Leveraging IndexedDB, TextVault saves your data locally, ensuring that your notes are always there when you come back.
 - **PWA**: Installable as a standalone application on desktop and mobile devices.
-- **Responsive Design**: With Bootstrap, TextVault provides a clean and responsive interface that adapts to different screen sizes.
 
 ## Getting Started
-
-### Prerequisites
-
-Ensure you have the following installed on your system:
-
-- Node.js
-- npm (comes with Node.js)
 
 ### Installation
 
@@ -32,11 +23,7 @@ Ensure you have the following installed on your system:
    ```bash
    npm install
    ``````
-4. Build the application using Webpack:
-   ```bash
-   npm run build
-    ``````
-5. Start the server:   
+4. Start the server:   
 
     ```bash
     npm start
@@ -53,7 +40,8 @@ Ensure you have the following installed on your system:
   Follow this link to [TextVault](https://textvault-455c17426d25.herokuapp.com/)
 
 ## Screenshot
-
-![TextVault Screenshot](./client/public/Screenshot%202023-11-24%20at%2010.34.11%20PM.png)
+![TextVault Screenshot](./client/src/images/Main.png)
+## Screenshot
+![TextVault Screenshot](./client/src/images/Data.png)
 
 
